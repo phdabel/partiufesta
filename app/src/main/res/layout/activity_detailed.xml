@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:fontFamily="sans-serif-light"
-            android:text="Bar Opinião"
+            android:text="@string/item_name"
             android:textStyle="bold"
             android:textAlignment="center"
             android:textSize="30sp"
@@ -55,7 +55,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="20dp"
-                    android:text="Contato:"
+                    android:text="@string/label_contact"
                     android:textStyle="bold"
                     android:fontFamily="monospace" />
 
@@ -73,7 +73,8 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:text="+55 0(51) 99-999-9999"
+                        android:text="@string/value_phone"
+                        android:autoLink="phone"
                         android:fontFamily="monospace"
                         />
 
@@ -91,7 +92,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Localização:"
+                    android:text="@string/label_location"
                     android:textStyle="bold"
                     android:fontFamily="monospace" />
 
@@ -109,7 +110,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="+55 0(51) 99-999-9999"
+                        android:text="@string/value_address"
                         android:fontFamily="monospace"
                         />
 
@@ -127,7 +128,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Avaliação dos usuários:"
+                    android:text="@string/label_evaluation"
                     android:textStyle="bold"
                     android:fontFamily="monospace" />
 
@@ -140,7 +141,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Preço: "
+                        android:text="@string/label_price_evaluation"
                         android:fontFamily="monospace"
                         />
 
@@ -172,39 +173,38 @@
                     android:id="@+id/likes"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    >
+                    android:orientation="horizontal">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Curtidas: "
                         android:fontFamily="monospace"
-                        />
+                        android:text="@string/label_likes_evaluation" />
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/ic_grade_black_24dp"/>
+                        android:src="@drawable/ic_grade_black_24dp" />
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/ic_grade_black_24dp"/>
+                        android:src="@drawable/ic_grade_black_24dp" />
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/ic_grade_black_24dp"/>
+                        android:src="@drawable/ic_grade_black_24dp" />
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/ic_star_border_black_24dp"/>
+                        android:src="@drawable/ic_star_border_black_24dp" />
+
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/ic_star_border_black_24dp"/>
+                        android:src="@drawable/ic_star_border_black_24dp" />
 
 
                 </LinearLayout>

@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Partiu Festa</string>
+    <string name="item_name">Bar Opinião</string>
+    <string name="label_contact">Contato:</string>
+    <string name="value_phone">051 99 999 9999</string>
+    <string name="label_location">Localização:</string>
+    <string name="value_address">R. José do Patrocínio, 834 - Cidade Baixa</string>
+    <string name="label_evaluation">Avaliação dos usuários:</string>
+    <string name="label_price_evaluation">Preço:</string>
+    <string name="label_likes_evaluation">Curtidas:</string>
 </resources>
